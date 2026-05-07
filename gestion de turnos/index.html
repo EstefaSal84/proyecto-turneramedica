@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestión de Turnos</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Librerías externas vía CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <div class="contenedor">
+    <header>
+      <h1>Sistema de Gestión de Turnos</h1>
+      <h2>Dra. Ailén Salvidía – Clínica Ginecobstétrica</h2>
+    </header>
+
+    <main>
+      <!-- Selector de fecha -->
+      <label for="fecha">Seleccionar fecha:</label>
+      <input type="date" id="fecha">
+
+      <!-- Lista donde se mostrarán los turnos -->
+      <ul id="listaTurnos"></ul>
+    </main>
+  </div>
+
+  <!-- Archivo principal de JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
+

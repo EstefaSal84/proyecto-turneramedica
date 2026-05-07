@@ -1,0 +1,83 @@
+/* Fondo general con degradado */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(to right, #e3f2fd, #f4f4f4);
+  margin: 0;
+  padding: 20px;
+}
+
+/* Caja central tipo tarjeta */
+.contenedor {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Encabezados */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+h2 {
+  text-align: center;
+  color: #2980b9;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+/* Selector de fecha */
+label {
+  font-weight: bold;
+  color: #2c3e50;
+  display: block;
+  margin-bottom: 5px;
+}
+
+#fecha {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 250px;
+}
+
+/* Lista de turnos */
+#listaTurnos {
+  list-style: none;
+  padding: 0;
+}
+
+#listaTurnos li {
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Efecto hover */
+#listaTurnos li:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Estados de disponibilidad */
+.disponible {
+  background-color: #28a745; /* verde profesional */
+  color: white;
+  font-weight: bold;
+}
+
+.ocupado {
+  background-color: #dc3545; /* rojo profesional */
+  color: white;
+  font-weight: bold;
+}
+

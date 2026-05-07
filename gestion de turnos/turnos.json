@@ -1,0 +1,27 @@
+[
+  {
+    "fecha": "2026-04-26",
+    "turnos": [
+      { "id": 1, "hora": "09:00", "disponible": true },
+      { "id": 2, "hora": "10:00", "disponible": true },
+      { "id": 3, "hora": "11:00", "disponible": false },
+      { "id": 4, "hora": "12:00", "disponible": true },
+      { "id": 5, "hora": "13:00", "disponible": true },
+      { "id": 6, "hora": "14:00", "disponible": false },
+      { "id": 7, "hora": "15:00", "disponible": true }
+    ]
+  },
+  {
+    "fecha": "2026-04-27",
+    "turnos": [
+      { "id": 1, "hora": "09:00", "disponible": true },
+      { "id": 2, "hora": "10:00", "disponible": false },
+      { "id": 3, "hora": "11:00", "disponible": true },
+      { "id": 4, "hora": "12:00", "disponible": true },
+      { "id": 5, "hora": "13:00", "disponible": false },
+      { "id": 6, "hora": "14:00", "disponible": true },
+      { "id": 7, "hora": "15:00", "disponible": true }
+    ]
+  }
+]
+
